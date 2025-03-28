@@ -18,7 +18,10 @@ data = [
     ["Sunny", "Mild", "Normal", "Strong", "Yes"],
     ["Overcast", "Mild", "High", "Strong", "Yes"],
     ["Overcast", "Hot", "Normal", "Weak", "Yes"],
-    ["Rain", "Mild", "High", "Strong", "No"]
+    ["Rain", "Mild", "High", "Strong", "No"],
+    ["Sunny", "Mild", "High", "Weak", "No"],
+    ["Sunny", "Mild", "High", "Weak", "Yes"],
+    ["Sunny", "Mild", "High", "Strong", "Yes"],
 ]
 
 df = pd.DataFrame(data, columns=["Outlook", "Temp", "Humidity", "Wind", "Tennis"])
